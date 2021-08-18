@@ -54,6 +54,15 @@ models:
         default: light
         required: true
       - type: enum
+        name: base_font
+        label: Font
+        options:
+          - fraunces
+          - karla
+          - system-sans
+        default: fraunces
+        required: true
+      - type: enum
         name: accent_color
         label: Accent color
         description: The accent color of the site
@@ -64,15 +73,6 @@ models:
           - violet
           - yellow
         default: pink
-        required: true
-      - type: enum
-        name: base_font
-        label: Font
-        options:
-          - fraunces
-          - karla
-          - system-sans
-        default: fraunces
         required: true
       - type: model
         name: header
