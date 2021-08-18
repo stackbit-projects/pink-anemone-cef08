@@ -70,5 +70,6 @@
                 "new_window": true
             }
         ]
-    }
+    },
+    "domain": "https://pink-anemone-cef08.netlify.app"
 }
